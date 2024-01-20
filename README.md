@@ -81,9 +81,9 @@ When a user finishes a schedule
 
 ## Team
 
-- Michele Staffiere
-- Nicholas Chiong
-- Joshua Concon
+- [Michele Staffiere](https://michelestaffiere.dev/)
+- [Nicholas Chiong](https://joshuaconcon.ca/)
+- [Joshua Concon](https://github.com/nchcs/)
 
 ## Future Work
 
