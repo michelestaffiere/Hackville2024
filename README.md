@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PR Planner
 
 ## Problem
@@ -18,7 +17,7 @@ We’re building an app to guide beginner powerlifters in training for their pow
 
 ## Technology Stack
 
-It’s a simple website written in HTML/CSS/JS with some Framework (probably React), intended to be used on a desktop
+It’s a simple website written in HTML/CSS/JS with Vite, intended to be used on a desktop
 
 ## App Flow
 
@@ -96,13 +95,3 @@ When a user finishes a schedule
   - Weight Conversion KG ↔ LBS
   - Plate Loader Calculation
   - Lifting Calculators
-=======
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 26f71f0 (firstt)
