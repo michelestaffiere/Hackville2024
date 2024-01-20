@@ -1,0 +1,9 @@
+.day-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid #ddd; /* Add a border for better visibility */
+  border-radius: 8px;
+  margin: 20px;
+  width: 200px;
+}

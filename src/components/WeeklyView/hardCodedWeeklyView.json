@@ -1,0 +1,117 @@
+{
+  "week": [
+    {
+      "mainLifts": {
+        "squat": {
+          "weight": 135,
+          "weightUnits": "LBS",
+          "reps": 5,
+          "actualRPE": null,
+          "targetRPE": 7,
+          "sets": 4
+        },
+        "bench": {
+          "weight": 135,
+          "weightUnits": "LBS",
+          "reps": 5,
+          "actualRPE": null,
+          "targetRPE": 7,
+          "sets": 4
+        }
+      },
+      "dayNumber": 1,
+      "auxLifts": [
+        {
+          "name": "Lat Pulldown",
+          "reps": 5,
+          "sets": 5
+        },
+        {
+          "name": "Tricep Pushdown",
+          "reps": 5,
+          "sets": 5
+        },
+        {
+          "name": "Tricep Extension",
+          "reps": 5,
+          "sets": 5
+        }
+      ]
+    },
+    {
+      "mainLifts": {
+        "squat": {
+          "weight": 135,
+          "weightUnits": "LBS",
+          "reps": 5,
+          "actualRPE": null,
+          "targetRPE": 7,
+          "sets": 4
+        },
+        "bench": {
+          "weight": 135,
+          "weightUnits": "LBS",
+          "reps": 5,
+          "actualRPE": null,
+          "targetRPE": 7,
+          "sets": 4
+        }
+      },
+      "dayNumber": 2,
+      "auxLifts": [
+        {
+          "name": "Lat Pulldown",
+          "reps": 5,
+          "sets": 5
+        },
+        {
+          "name": "Tricep Pushdown",
+          "reps": 5,
+          "sets": 5
+        },
+        {
+          "name": "Tricep Extension",
+          "reps": 5,
+          "sets": 5
+        }
+      ]
+    },{
+      "mainLifts": {
+        "squat": {
+          "weight": 135,
+          "weightUnits": "LBS",
+          "reps": 5,
+          "actualRPE": null,
+          "targetRPE": 7,
+          "sets": 4
+        },
+        "bench": {
+          "weight": 135,
+          "weightUnits": "LBS",
+          "reps": 5,
+          "actualRPE": null,
+          "targetRPE": 7,
+          "sets": 4
+        }
+      },
+      "dayNumber": 3,
+      "auxLifts": [
+        {
+          "name": "Lat Pulldown",
+          "reps": 5,
+          "sets": 5
+        },
+        {
+          "name": "Tricep Pushdown",
+          "reps": 5,
+          "sets": 5
+        },
+        {
+          "name": "Tricep Extension",
+          "reps": 5,
+          "sets": 5
+        }
+      ]
+    }
+  ]
+}
