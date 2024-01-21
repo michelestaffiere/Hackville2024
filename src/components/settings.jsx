@@ -17,19 +17,27 @@ function BigThreeValues(){
     
     return(
         <form onSubmit={handleSubmit}>
-            <label>BenchPwess Pwease :3 :
+            <label>BenchPress:
                 <input
                     type="text"
-                    name ="benchPress"
-                    value={liftValue.benchPress || ""}
+                    name ="bP"
+                    value={liftValue.bP || ""}
                     onChange={handleChange}
                 />
             </label>
-            <label>Sqwat Pwease :3 :
+            <label>Squat:
                 <input
                     type="text"
                     name ="squat"
                     value={liftValue.squat || ""}
+                    onChange={handleChange}
+                />
+            </label>
+            <label>Deadlift
+                <input
+                    type="text"
+                    name ="dl"
+                    value={liftValue.dl || ""}
                     onChange={handleChange}
                 />
             </label>
@@ -41,7 +49,7 @@ function BigThreeValues(){
 function Settings() {
     return (
         <div>
-        <h1>Anita Max Wynn :3</h1>
+        <h1>Please Enter Your Lift Values</h1>
         <BigThreeValues />
       </div>
     );
