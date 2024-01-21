@@ -1,16 +1,20 @@
 {
   "mainLifts": {
     "squat": {
-      "weight": 135,
-      "weightUnits": "LBS",
+      "movement": "Barbell Squat",
+      "actualWeight":null,
+      "targetWeight": 385,
+      "weightUnits": "Lb's",
       "reps": 5,
       "actualRPE": null,
       "targetRPE": 7,
       "sets": 4
     },
     "bench": {
-      "weight": 135,
-      "weightUnits": "LBS",
+      "movement" : "Barbell Bench Press",
+      "actualWeight":null,
+      "targetWeight": 225,
+      "weightUnits": "Lb's",
       "reps": 5,
       "actualRPE": null,
       "targetRPE": 7,
@@ -22,17 +26,20 @@
     {
       "name": "Lat Pulldown",
       "reps": 5,
-      "sets": 5
+      "sets": 5,
+      "rpe":8
     },
     {
-      "name": "Tricep Pushdown",
+      "name": "Lateral Raises",
       "reps": 5,
-      "sets": 5
+      "sets": 5,
+      "rpe": 8
     },
     {
       "name": "Tricep Extension",
       "reps": 5,
-      "sets": 5
+      "sets": 5,
+      "rpe":8
     }
   ]
 }

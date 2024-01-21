@@ -1,0 +1,85 @@
+.sr {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+	-webkit-clip-path: inset(50%) !important;
+		clip-path: inset(50%) !important;  /* 2 */
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;            /* 3 */
+}
+.srFocusable:focus,
+.srFocusable:active {
+	clip: auto !important;
+	-webkit-clip-path: none !important;
+		clip-path: none !important;
+	height: auto !important;
+	margin: auto !important;
+	overflow: visible !important;
+	width: auto !important;
+	white-space: normal !important;
+}
+
+
+
+
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: black;
+  filter: drop-shadow(0px 2px 2px #000000);
+  margin: 20px;
+  width: 400px;
+} 
+
+.liftTrackContainer {
+  display: flex;
+  flex-direction: column;
+}
+.liftTrackContainer p {
+  margin-bottom: 0;
+}
+
+.liftTrackContainer__inputContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+form p{
+  margin:.5rem 0 ;
+}
+form button{
+  align-self: center;
+}
+
+input {
+  border-radius: 5px;
+  background: none;
+  color: black;
+  border: 1px solid grey;
+  width: 3.5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
